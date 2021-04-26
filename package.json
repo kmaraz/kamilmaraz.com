@@ -1,0 +1,15 @@
+{
+  "name": "kamilmaraz.com",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:kmaraz/kamilmaraz.com.git",
+  "author": "Kamil Maraz <kamilmaraz@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn eleventy --input=./src",
+    "serve": "yarn eleventy --input=./src --serve"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  }
+}
